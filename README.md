@@ -27,10 +27,15 @@ git clone https://github.com/MaxBittker/rs-sdk.git
 
 Out of the box, you can connect to the provided demo server, choose a name that is not already taken!
 
-With claude code:
+With Claude Code:
 ```sh
 bun install
 claude "start a new bot with name: {username}"
+```
+With OpenCode:
+```sh
+bun install
+opencode "start a new bot with name: {username}"
 ```
 Manually:
 ```sh
